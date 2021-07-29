@@ -1,16 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Honda CBR</title>
+
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/all.css">
+
+    <!-- bootstrap cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- main css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <p>hello world</p>
+    <header>
+        <!-- header start  -->
+        <section>
+            <div class="container-fluid px-lg-5 py-3 bg-secondary">
+
+                <!-- header left  -->
+                <div class="row">
+
+                    <div class="left col-md-6  ">
+                        <p class="text-light fw-light">Computer-controlled digital transistorized with electronic
+                            advance
+                        </p>
+                        <h1 class="fw-bold  text-light ">Honda CBR 300R</h1>
+                        <p class="text-light fw-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Eveniet
+                            quam quisquam laborum pariatur id doloremque impedit sint velit in beatae..</p>
+
+                        <!-- purchase button start  -->
+                        <div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                purchase
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Honda CBR 300R</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Please Choose <span class="text-primary">payment method</span>
+                                        </div>
+                                        <div class="modal-footer border-0 ">
+
+                                            <button type="button" class="btn btn-danger">Cash-on Delivary</button>
+                                            <button type="button" class="btn btn-primary">Pay advance</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- purchase button end  -->
+                    </div>
+
+
+                    <!-- header right  -->
+                    <div class="right col-md-6">
+                        <img class=" img-fluid" src="assets/images/header-bike.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- header end  -->
+    </header>
+
+    <main>
+        <!-- feature section  -->
+        <section class="container py-4 ">
+            <div class="text-center">
+                <h1 class="fw-bold">Featrued Bikes 2021</h1>
+                <p class="text-danger">Best Bike Collection</p>
+            </div>
+            <div class="container">
+                <div class="row gx-5 gy-5">
+                    <div class="col-md-4 "><img class="w-75 d-block mx-auto" src="assets/images/feature-bike.png"
+                            alt=""></div>
+                    <div class="col-md-4 "><img class="w-75  d-block mx-auto" src="assets/images/feature-bike-2.png"
+                            alt=""></div>
+                    <div class="col-md-4 "><img class="w-75  d-block mx-auto" src="assets/images/feature-bike-2.png"
+                            alt=""></div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- feature section end  -->
+
+        <!-- client review section  -->
+        <section class="container my-5 pt-5">
+
+            <!-- client review headline  -->
+            <div class="text-center mb-5">
+                <h1 class="fw-bold">Happy <span class="text-danger">Clients Say</span></h1>
+            </div>
+
+            <!-- client review -->
+
+            <div class="container px-4">
+
+                <div class="row gx-5 gy-5">
+
+
+                    <div class="col-md-4">
+                        <div class="border border-2 text-center">
+
+                            <img class="mx-auto my-3 d-block w-50" src="assets/images/user-1.png" alt="">
+                            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+                                maxime
+                                error iste repellat
+                                dignissimos deserunt necessitatibus animi dolore distinctio quibusdam?</p>
+                            <p class=" text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+
+                            </p>
+                            <p class=" my-3 text-primary">Regina Miles</p>
+                            <p class="fw-bold">Banker</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="border border-2 text-center">
+
+                            <img class="mx-auto my-3 d-block w-50" src="assets/images/user-2.png" alt="">
+                            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+                                maxime
+                                error iste repellat
+                                dignissimos deserunt necessitatibus animi dolore distinctio quibusdam?</p>
+                            <p class=" text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+
+                            </p>
+                            <p class=" my-3 text-primary">Regina Miles</p>
+                            <p class="fw-bold">Banker</p>
+                        </div>
+                    </div>
+                    <!-- client 3  -->
+                    <div class="col-md-4 ">
+                        <div class="border border-2 text-center">
+
+                            <img class="mx-auto my-3 d-block w-50 rounded-circle" src="assets/images/user-3.jpg" alt="">
+                            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+                                maxime
+                                error iste repellat
+                                dignissimos deserunt necessitatibus animi dolore distinctio quibusdam?</p>
+                            <p class=" text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+
+                            </p>
+                            <p class=" my-3 text-primary">Regina Miles</p>
+                            <p class="fw-bold">Banker</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </section>
+        <!-- review section end  -->
+
+
+        <!-- Faq section start  -->
+        <section class="my-5 py-5">
+            <!-- faq headline  -->
+            <div class="container text-center mb-5 ">
+                <h1 class="fw-bold">Freequently Asked <span class="text-danger">Questions</span></h1>
+            </div>
+
+            <!-- faq -->
+            <div class="container px-4">
+                <!-- faq image  -->
+                <div class="row gx-5">
+                    <div class="col-md-6">
+                        <div class="p-3 "><img class="img-fluid" src="assets/images/faq.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- faq accordion  -->
+                    <div class="col-md-6">
+                        <div class="p-3 ">
+
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseOne">
+                                            What are the most important things I should know before riding a bike?
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="panelsStayOpen-headingOne">
+                                        <div class="accordion-body">
+
+                                            Bike is risky. Don't take the risk.
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laudantium amet
+                                            maiores hic in! Ipsam odio modi facere voluptas. Consequatur illum, numquam
+                                            nisi omnis harum officia corporis quaerat perferendis sequi impedit dolore
+                                            earum quo blanditiis quos dicta quam repellendus, in iure error excepturi
+                                            ducimus quis aspernatur doloremque ad. Aliquid, odit!
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                            How can I tell My Helmet is old?
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingTwo">
+                                        <div class="accordion-body">
+                                            Look for scratches.
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                            My bike has been in storage. Is it safe to ride?
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body">
+                                            No. Check brakes and change engine oil.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                            What Rule should I follow?
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="panelsStayOpen-headingFour">
+                                        <div class="accordion-body">
+                                            Traffic Rule
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- extra part 1 -->
+        <div class="container-fluid px-4 py-4 mt-4 bg-secondary">
+            <div class="row gx-5">
+
+                <!-- contact form  -->
+
+                <div class="col-md-8">
+                    <h3 class="mb-4">Don't have an account? <span class="text-primary">Sign Up</span></h3>
+                    <!-- form  -->
+                    <form class="row g-3 needs-validation border border-3 py-3" novalidate>
+                        <div class="col-md-4">
+                            <label for="validationCustom01" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="validationCustom01" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="validationCustom02" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustomUsername" class="form-label">Username</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                <input type="text" class="form-control" id="validationCustomUsername"
+                                    aria-describedby="inputGroupPrepend" required>
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom03" class="form-label">City</label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom04" class="form-label">State</label>
+                            <select class="form-select" id="validationCustom04" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Bangladesh</option>
+                                <option>JhankaraJhankara </option>
+                                <option>Nowakhali</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom05" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="validationCustom05" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid zip.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Sign up</button>
+                        </div>
+                    </form>
+
+                </div>
+
+                <!-- login form  -->
+                <div class="col-md-4 ">
+                    <h3 class=""><span class="text-primary">Log In</span></h3>
+                    <form class="border border-3 p-3">
+                        <div class="">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Log In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- extra part 2  -->
+        <div class="container-fluid bg-dark p-4">
+            <div class="container px-4">
+                <div class="row gx-5">
+                    <!-- iframe  -->
+                    <div class="col-md-6">
+                        <h4 class="text-light">Honda CBR 300R Bike review</h4>
+                        <div class="p-3 border border-danger border-4"><iframe width="100%" height="315"
+                                src="https://www.youtube.com/embed/8LBlxhqGfB4" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe></div>
+                    </div>
+
+                    <!-- social  -->
+                    <div class="col-md-6 mt-5 d-flex align-items-center">
+
+                        <div class="w-100">
+
+                            <h4 class="text-light">Connect Us Socially</h4>
+
+                            <div class="social-logo">
+                                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                <a target="_blank" href=""> <i class="fab fa-dribbble" aria-hidden="true"></i></a>
+                                <a target="_blank" href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                                <a target="_blank" href=""> <i class="fab fa-youtube" aria-hidden="true"></i></a>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+
+    </script>
+
 
 </body>
+
+
 
 </html>
